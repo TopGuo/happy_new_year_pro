@@ -1,0 +1,1166 @@
+#################### 02/04/2019 12:45:14.4624535 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/  
+Path:       http://localhost:5000/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:45:14.5658262 ###############
+Message:    Request finished in 106.0305ms 307 
+Path:       http://localhost:5000/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:45:14.8210390 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/  
+Path:       https://localhost:5001/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:45:14.8996260 ###############
+Message:    Request finished in 73.6434ms 404 
+Path:       https://localhost:5001/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:45:30.4209703 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc  
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:45:30.4215230 ###############
+Message:    Request finished in 0.6478ms 404 
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:45:35.5970571 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_apidoc  
+Path:       https://localhost:5001/_apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:45:35.6014418 ###############
+Message:    Request finished in 8.2454ms 404 
+Path:       https://localhost:5001/_apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:45:52.1632601 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/values/1  
+Path:       https://localhost:5001/api/values/1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:45:52.4126251 ###############
+Message:    Request finished in 248.6718ms 200 text/plain; charset=utf-8
+Path:       https://localhost:5001/api/values/1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:45:52.4784432 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico  
+Path:       https://localhost:5001/favicon.ico
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:45:52.4790550 ###############
+Message:    Request finished in 0.9958ms 404 
+Path:       https://localhost:5001/favicon.ico
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:28.6456737 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/  
+Path:       http://localhost:5000/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:28.7222552 ###############
+Message:    Request finished in 76.2444ms 307 
+Path:       http://localhost:5000/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:29.0133754 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/  
+Path:       https://localhost:5001/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:46:29.1328371 ###############
+Message:    Request finished in 117.0906ms 404 
+Path:       https://localhost:5001/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:46:35.8759848 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc  
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:35.9095090 ###############
+Message:    Request finished in 33.8086ms 200 text/html; charset=utf-8
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:35.9592132 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848523837523405  
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848523837523405
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:35.9620228 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/jquery.js  
+Path:       https://localhost:5001/apidoc/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:46:35.9626371 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/angular.js  
+Path:       https://localhost:5001/apidoc/angular.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:35.9626884 ###############
+Message:    Request finished in 11.2132ms 200 text/css
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848523837523405
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:35.9677178 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docViewData.json?v=636848523837523405  
+Path:       https://localhost:5001/apidoc/docViewData.json?v=636848523837523405
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:35.9829500 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.js?v=636848523837523405  
+Path:       https://localhost:5001/apidoc/docView.min.js?v=636848523837523405
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:35.9855326 ###############
+Message:    Request finished in 1.5186ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/docView.min.js?v=636848523837523405
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:35.9990704 ###############
+Message:    Request finished in 36.1827ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:36.0053903 ###############
+Message:    Request finished in 42.4119ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/angular.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:46:36.4625573 ###############
+Message:    Request finished in 496.716ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/docViewData.json?v=636848523837523405
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:47:18.9025616 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/Get?id=3  
+Path:       https://localhost:5001/api/Values/Get?id=3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:47:19.0830222 ###############
+Message:    Request finished in 179.148ms 400 application/problem+json; charset=utf-8
+Path:       https://localhost:5001/api/Values/Get?id=3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:47:32.1790888 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/Get?id=1  
+Path:       https://localhost:5001/api/Values/Get?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:47:32.1895717 ###############
+Message:    Request finished in 9.3559ms 400 application/problem+json; charset=utf-8
+Path:       https://localhost:5001/api/Values/Get?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:15.8021640 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/  
+Path:       http://localhost:5000/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:15.8847916 ###############
+Message:    Request finished in 83.8284ms 307 
+Path:       http://localhost:5000/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:16.0411645 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/  
+Path:       https://localhost:5001/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:55:16.1330588 ###############
+Message:    Request finished in 93.2071ms 404 
+Path:       https://localhost:5001/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:55:21.5851168 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc  
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:21.6205273 ###############
+Message:    Request finished in 35.4048ms 200 text/html; charset=utf-8
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:21.6587680 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848529053293009  
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:21.6619286 ###############
+Message:    Request finished in 1.6588ms 200 text/css
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:21.6734198 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/angular.js  
+Path:       https://localhost:5001/apidoc/angular.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:21.6735235 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/jquery.js  
+Path:       https://localhost:5001/apidoc/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:55:21.6837194 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docViewData.json?v=636848529053293009  
+Path:       https://localhost:5001/apidoc/docViewData.json?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:21.6843144 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.js?v=636848529053293009  
+Path:       https://localhost:5001/apidoc/docView.min.js?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:21.6855145 ###############
+Message:    Request finished in 1.0415ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/docView.min.js?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:21.7155316 ###############
+Message:    Request finished in 41.2771ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:21.7203697 ###############
+Message:    Request finished in 46.6156ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/angular.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:22.1564433 ###############
+Message:    Request finished in 472.8155ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/docViewData.json?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:37.6467758 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/Get?id=1  
+Path:       https://localhost:5001/api/Values/Get?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:37.6500829 ###############
+Message:    Request finished in 0.5375ms 404 
+Path:       https://localhost:5001/api/Values/Get?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:46.0265282 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/Get?id=3  
+Path:       https://localhost:5001/api/Values/Get?id=3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:46.0275169 ###############
+Message:    Request finished in 1.0471ms 404 
+Path:       https://localhost:5001/api/Values/Get?id=3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:46.9847883 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/Get?id=3  
+Path:       https://localhost:5001/api/Values/Get?id=3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:46.9851244 ###############
+Message:    Request finished in 0.4428ms 404 
+Path:       https://localhost:5001/api/Values/Get?id=3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:47.9016814 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc  
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:47.9137038 ###############
+Message:    Request finished in 12.3907ms 200 text/html; charset=utf-8
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:47.9398512 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848529053293009  
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:47.9416804 ###############
+Message:    Request finished in 1.2805ms 200 text/css
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:48.9608395 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc  
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:48.9636020 ###############
+Message:    Request finished in 4.1986ms 200 text/html; charset=utf-8
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:48.9865342 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848529053293009  
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:48.9883362 ###############
+Message:    Request finished in 2.5738ms 200 text/css
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:49.4721237 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc  
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:49.4744223 ###############
+Message:    Request finished in 1.463ms 200 text/html; charset=utf-8
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:51.3594088 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc  
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:51.3628227 ###############
+Message:    Request finished in 3.8656ms 200 text/html; charset=utf-8
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:51.3901348 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848529053293009  
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:55:51.3908543 ###############
+Message:    Request finished in 2.6902ms 200 text/css
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848529053293009
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:56:04.4450346 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/Get?id=4  
+Path:       https://localhost:5001/api/Values/Get?id=4
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:56:04.4457310 ###############
+Message:    Request finished in 0.7078ms 404 
+Path:       https://localhost:5001/api/Values/Get?id=4
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:11.0399151 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/  
+Path:       https://localhost:5001/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:57:11.1841362 ###############
+Message:    Request finished in 145.3431ms 404 
+Path:       https://localhost:5001/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:57:14.6829168 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc  
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:14.7189067 ###############
+Message:    Request finished in 36.0266ms 200 text/html; charset=utf-8
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:14.7649288 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848530294421530  
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848530294421530
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:14.7836647 ###############
+Message:    Request finished in 18.2511ms 200 text/css
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848530294421530
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:14.7987550 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/jquery.js  
+Path:       https://localhost:5001/apidoc/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:14.7988734 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.js?v=636848530294421530  
+Path:       https://localhost:5001/apidoc/docView.min.js?v=636848530294421530
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:14.8128437 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/angular.js  
+Path:       https://localhost:5001/apidoc/angular.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:14.8166431 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docViewData.json?v=636848530294421530  
+Path:       https://localhost:5001/apidoc/docViewData.json?v=636848530294421530
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:57:14.8343988 ###############
+Message:    Request finished in 35.2621ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/docView.min.js?v=636848530294421530
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:14.8845369 ###############
+Message:    Request finished in 70.4803ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/angular.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:14.8845368 ###############
+Message:    Request finished in 85.1791ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:15.3161315 ###############
+Message:    Request finished in 501.7193ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/docViewData.json?v=636848530294421530
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:57:27.1198970 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/Get?id=1  
+Path:       https://localhost:5001/api/Values/Get?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:57:27.1243345 ###############
+Message:    Request finished in 4.2143ms 404 
+Path:       https://localhost:5001/api/Values/Get?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:58:00.5361190 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001//api/Values?id=1  
+Path:       https://localhost:5001//api/Values?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:58:00.5466364 ###############
+Message:    Request finished in 10.4278ms 404 
+Path:       https://localhost:5001//api/Values?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:58:07.2478154 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values?id=1  
+Path:       https://localhost:5001/api/Values?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:58:27.3432531 ###############
+Message:    Request finished in 20098.046ms 200 application/json; charset=utf-8
+Path:       https://localhost:5001/api/Values?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:59:31.6402217 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/  
+Path:       https://localhost:5001/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:59:31.8121657 ###############
+Message:    Request finished in 171.7119ms 404 
+Path:       https://localhost:5001/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:59:36.2485359 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc  
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:59:36.2942848 ###############
+Message:    Request finished in 45.8126ms 200 text/html; charset=utf-8
+Path:       https://localhost:5001/apidoc
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:59:36.3427410 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848531703635709  
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848531703635709
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:59:36.3606531 ###############
+Message:    Request finished in 18.0168ms 200 text/css
+Path:       https://localhost:5001/apidoc/docView.min.css?v=636848531703635709
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:59:36.3806512 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docViewData.json?v=636848531703635709  
+Path:       https://localhost:5001/apidoc/docViewData.json?v=636848531703635709
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:59:36.3875001 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.js?v=636848531703635709  
+Path:       https://localhost:5001/apidoc/docView.min.js?v=636848531703635709
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:59:36.3915560 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/jquery.js  
+Path:       https://localhost:5001/apidoc/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:59:36.4009800 ###############
+Message:    Request finished in 13.0701ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/docView.min.js?v=636848531703635709
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:59:36.4109099 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/angular.js  
+Path:       https://localhost:5001/apidoc/angular.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:59:36.4930676 ###############
+Message:    Request finished in 102.0311ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:59:36.4931589 ###############
+Message:    Request finished in 82.5001ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/angular.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 12:59:36.8382053 ###############
+Message:    Request finished in 453.3029ms 200 application/javascript
+Path:       https://localhost:5001/apidoc/docViewData.json?v=636848531703635709
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 12:59:49.0427276 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/GetName?id=0  
+Path:       https://localhost:5001/api/Values/GetName?id=0
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 13:00:02.9002383 ###############
+Message:    Request finished in 13857.7081ms 200 application/json; charset=utf-8
+Path:       https://localhost:5001/api/Values/GetName?id=0
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()

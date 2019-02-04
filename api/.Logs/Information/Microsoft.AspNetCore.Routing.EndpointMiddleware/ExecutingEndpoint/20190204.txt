@@ -1,0 +1,55 @@
+#################### 02/04/2019 12:45:52.1709965 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.Get (api)'
+Path:       https://localhost:5001/api/values/1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Routing.EndpointMiddleware.Log.ExecutingEndpoint(ILogger logger, Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>d__3.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>d__6.MoveNext()
+#################### 02/04/2019 12:47:18.9051521 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.Get (api)'
+Path:       https://localhost:5001/api/Values/Get?id=3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Routing.EndpointMiddleware.Log.ExecutingEndpoint(ILogger logger, Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>d__3.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>d__6.MoveNext()
+#################### 02/04/2019 12:47:32.1795741 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.Get (api)'
+Path:       https://localhost:5001/api/Values/Get?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Routing.EndpointMiddleware.Log.ExecutingEndpoint(ILogger logger, Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>d__3.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>d__6.MoveNext()
+#################### 02/04/2019 12:58:07.2564294 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.Get (api)'
+Path:       https://localhost:5001/api/Values?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Routing.EndpointMiddleware.Log.ExecutingEndpoint(ILogger logger, Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>d__3.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>d__6.MoveNext()
+#################### 02/04/2019 12:59:49.0515009 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.GetName (api)'
+Path:       https://localhost:5001/api/Values/GetName?id=0
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Routing.EndpointMiddleware.Log.ExecutingEndpoint(ILogger logger, Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>d__3.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>d__6.MoveNext()

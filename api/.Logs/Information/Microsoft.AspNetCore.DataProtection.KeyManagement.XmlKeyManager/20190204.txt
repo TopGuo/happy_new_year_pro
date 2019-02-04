@@ -1,0 +1,35 @@
+#################### 02/04/2019 12:45:08.8336797 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI(ILogger logger, String fullName)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+#################### 02/04/2019 12:46:23.4219708 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI(ILogger logger, String fullName)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+#################### 02/04/2019 12:55:05.0380192 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI(ILogger logger, String fullName)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+#################### 02/04/2019 12:57:08.8975296 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI(ILogger logger, String fullName)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+#################### 02/04/2019 12:59:29.8296998 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI(ILogger logger, String fullName)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
