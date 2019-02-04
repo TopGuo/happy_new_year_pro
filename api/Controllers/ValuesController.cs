@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace api.Controllers
 {
@@ -21,10 +22,11 @@ namespace api.Controllers
             Result re=new Result();
             if (id.Equals(1))
             {
-                re.Data="你好";
+                re.Data="你好";                
                 return re;
             }
             re.Data="我很好";
+            Logger.Information("ValuesController",JsonConvert.SerializeObject(re));
             return re;
         }
     }

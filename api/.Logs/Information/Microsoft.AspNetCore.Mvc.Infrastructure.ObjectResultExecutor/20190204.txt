@@ -53,3 +53,13 @@ StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ObjectR
    at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
    at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 02/04/2019 13:28:32.2789699 ###############
+Message:    Executing ObjectResult, writing value of type 'System.Result'.
+#################### 02/04/2019 13:28:49.2972452 ###############
+Message:    Executing ObjectResult, writing value of type 'System.Result'.
+#################### 02/04/2019 13:29:21.3797615 ###############
+Message:    Executing ObjectResult, writing value of type 'System.Result'.
+#################### 02/04/2019 13:31:58.8209786 ###############
+Message:    Executing ObjectResult, writing value of type 'System.Result'.
+#################### 02/04/2019 13:32:34.7463165 ###############
+Message:    Executing ObjectResult, writing value of type 'System.Result'.

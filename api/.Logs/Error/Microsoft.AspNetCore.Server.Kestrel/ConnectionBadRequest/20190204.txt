@@ -1,0 +1,78 @@
+#################### 02/04/2019 13:17:44.9476209 ###############
+Message:    Connection id "0HLKAC011LJM4" bad request data: "Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03\x10\x00dg\xD3x)mm}4\xCDe\x80\x0E\xF4\xFA\xF8\xA0\x89x&F\x87\x9B',\xBDd!|\xC2 /\xEF[\x1CO@\x8F\xEBV\x9A\xAAuz\x87\x83\x0A'"
+Error:      BadHttpRequestException=> Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03\x10\x00dg\xD3x)mm}4\xCDe\x80\x0E\xF4\xFA\xF8\xA0\x89x&F\x87\x9B',\xBDd!|\xC2 /\xEF[\x1CO@\x8F\xEBV\x9A\xAAuz\x87\x83\x0A'
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.RejectRequestLine(Byte* requestLine, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethod(Byte* data, Int32 length, Int32& methodLength)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, Byte* data, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpParser<TRequestHandler>.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 13:17:44.9475094 ###############
+Message:    Connection id "0HLKAC011LJM3" bad request data: "Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03\x0B\xF2X\x8E\x80\x84W:\x12\xD1\x84\x1E\xB1f"\xF5.=I\x98\xC0\xF3z\xA8\x93>\x82\xC9c\xAD\xD2\xDE \xA9yQ\x84\xABOa;\xE2Xr\x90\xB4\x9Be\x9F \x96/\xE1\x94\xFD,\xB9\xA3\xA1L\xFBC\x8Dx,\x00"\x9A\x9A\x13\x03\x13\x01\x13\x02\xCC\xA9\xCC\xA8\xC0+\xC0/\xC0,\xC00\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'"
+Error:      BadHttpRequestException=> Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03\x0B\xF2X\x8E\x80\x84W:\x12\xD1\x84\x1E\xB1f"\xF5.=I\x98\xC0\xF3z\xA8\x93>\x82\xC9c\xAD\xD2\xDE \xA9yQ\x84\xABOa;\xE2Xr\x90\xB4\x9Be\x9F \x96/\xE1\x94\xFD,\xB9\xA3\xA1L\xFBC\x8Dx,\x00"\x9A\x9A\x13\x03\x13\x01\x13\x02\xCC\xA9\xCC\xA8\xC0+\xC0/\xC0,\xC00\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.RejectRequestLine(Byte* requestLine, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethod(Byte* data, Int32 length, Int32& methodLength)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, Byte* data, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpParser<TRequestHandler>.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 13:17:44.9696135 ###############
+Message:    Connection id "0HLKAC011LJM5" bad request data: "Invalid request line: '\x16\x03\x01\x00\xC3\x01\x00\x00\xBF\x03\x03\xD5e\xA3\xF2\xD6\xC9\x968\xD6~\xFAn\xF0\xA6\xBDO\x9C]\xBC\x19\x81\xC2m'\xF3G\xDA\xDF[G\xDA\xA1\x00\x00\x1CJJ\xCC\xA9\xCC\xA8\xC0+\xC0/\xC0,\xC00\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'"
+Error:      BadHttpRequestException=> Invalid request line: '\x16\x03\x01\x00\xC3\x01\x00\x00\xBF\x03\x03\xD5e\xA3\xF2\xD6\xC9\x968\xD6~\xFAn\xF0\xA6\xBDO\x9C]\xBC\x19\x81\xC2m'\xF3G\xDA\xDF[G\xDA\xA1\x00\x00\x1CJJ\xCC\xA9\xCC\xA8\xC0+\xC0/\xC0,\xC00\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.RejectRequestLine(Byte* requestLine, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethod(Byte* data, Int32 length, Int32& methodLength)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, Byte* data, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpParser<TRequestHandler>.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 13:20:10.1488264 ###############
+Message:    Connection id "0HLKAC1ID6686" bad request data: "Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03\xC7iww\xF3/I\xE7\xB3\xDEY\x11I\xE4\xE4\x1C\x89\xDB\x88\xD34\x10r\xCA\x13L3\x19\xBB6\xDA\xAE \xDE\xBBB.s\xD2eo\x9Do"\x99t\x8A{H#\x96\xC5\xE1\xA5tx\xF53\x84\x9E\xFE\xD1'\x89\xD1\x00"\x0A'"
+Error:      BadHttpRequestException=> Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03\xC7iww\xF3/I\xE7\xB3\xDEY\x11I\xE4\xE4\x1C\x89\xDB\x88\xD34\x10r\xCA\x13L3\x19\xBB6\xDA\xAE \xDE\xBBB.s\xD2eo\x9Do"\x99t\x8A{H#\x96\xC5\xE1\xA5tx\xF53\x84\x9E\xFE\xD1'\x89\xD1\x00"\x0A'
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.RejectRequestLine(Byte* requestLine, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethod(Byte* data, Int32 length, Int32& methodLength)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, Byte* data, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpParser<TRequestHandler>.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 13:20:10.1489033 ###############
+Message:    Connection id "0HLKAC1ID6685" bad request data: "Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03JbN\xCB\xF8@\xE8\xD9s\xFA\xB8c\x1B{&X\x1FvO\xE6\xA1\xC0\xEA\xD3\xC0\x04\x09@"\xC4B\xE1 \xDC\x0D p\xAA\xCF*\x7F\xFA\xC7<\x1C\x9FG\xA9y6\xFB\x94I\xA0\xA9UH\xB1\xE0\xF9\x9A/\x9EI\xD1\x00"\xDA\xDA\x13\x03\x13\x01\x13\x02\xCC\xA9\xCC\xA8\xC0+\xC0/\xC0,\xC00\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'"
+Error:      BadHttpRequestException=> Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03JbN\xCB\xF8@\xE8\xD9s\xFA\xB8c\x1B{&X\x1FvO\xE6\xA1\xC0\xEA\xD3\xC0\x04\x09@"\xC4B\xE1 \xDC\x0D p\xAA\xCF*\x7F\xFA\xC7<\x1C\x9FG\xA9y6\xFB\x94I\xA0\xA9UH\xB1\xE0\xF9\x9A/\x9EI\xD1\x00"\xDA\xDA\x13\x03\x13\x01\x13\x02\xCC\xA9\xCC\xA8\xC0+\xC0/\xC0,\xC00\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.RejectRequestLine(Byte* requestLine, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethod(Byte* data, Int32 length, Int32& methodLength)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, Byte* data, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpParser<TRequestHandler>.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+#################### 02/04/2019 13:20:10.1772936 ###############
+Message:    Connection id "0HLKAC1ID6687" bad request data: "Invalid request line: '\x16\x03\x01\x00\xC3\x01\x00\x00\xBF\x03\x03\xCF\xCF+Px\xEEq\x0A'"
+Error:      BadHttpRequestException=> Invalid request line: '\x16\x03\x01\x00\xC3\x01\x00\x00\xBF\x03\x03\xCF\xCF+Px\xEEq\x0A'
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.RejectRequestLine(Byte* requestLine, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethod(Byte* data, Int32 length, Int32& methodLength)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, Byte* data, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpParser<TRequestHandler>.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)

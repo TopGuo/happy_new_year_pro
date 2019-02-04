@@ -53,3 +53,17 @@ StackTrace: at Microsoft.AspNetCore.Routing.EndpointMiddleware.Log.ExecutingEndp
    at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
    at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
    at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>d__6.MoveNext()
+#################### 02/04/2019 13:11:34.9794162 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.GetName (api)'
+#################### 02/04/2019 13:15:03.7161874 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.GetName (api)'
+#################### 02/04/2019 13:28:29.1562582 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.GetName (api)'
+#################### 02/04/2019 13:28:46.3760377 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.GetName (api)'
+#################### 02/04/2019 13:29:12.5586271 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.GetName (api)'
+#################### 02/04/2019 13:31:48.2680599 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.GetName (api)'
+#################### 02/04/2019 13:32:14.3480348 ###############
+Message:    Executing endpoint 'api.Controllers.ValuesController.GetName (api)'

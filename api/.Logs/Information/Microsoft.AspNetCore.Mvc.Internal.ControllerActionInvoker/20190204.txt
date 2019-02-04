@@ -174,3 +174,51 @@ StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.Execute
    at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
    at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 13:11:35.0214935 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:11:35.0571884 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (0) - Validation state: Valid
+#################### 02/04/2019 13:15:03.7668662 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:15:03.7988873 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (4) - Validation state: Valid
+#################### 02/04/2019 13:28:29.1953984 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:28:29.2210441 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (0) - Validation state: Valid
+#################### 02/04/2019 13:28:32.2609555 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3033.3248ms.
+#################### 02/04/2019 13:28:32.3271438 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 3126.7094ms
+#################### 02/04/2019 13:28:49.2890966 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2899.343ms.
+#################### 02/04/2019 13:28:46.3803197 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:28:46.3856504 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (1) - Validation state: Valid
+#################### 02/04/2019 13:28:49.3095562 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 2924.6866ms
+#################### 02/04/2019 13:29:12.5616146 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:29:12.5653997 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (1) - Validation state: Valid
+#################### 02/04/2019 13:29:21.3740796 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8803.4818ms.
+#################### 02/04/2019 13:29:21.4070015 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 8841.7872ms
+#################### 02/04/2019 13:31:48.2709337 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:31:48.2771413 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (3) - Validation state: Valid
+#################### 02/04/2019 13:31:58.8042031 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10523.4663ms.
+#################### 02/04/2019 13:31:58.8369678 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 10561.8719ms
+#################### 02/04/2019 13:32:14.3520159 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:32:14.3562506 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (3) - Validation state: Valid
+#################### 02/04/2019 13:32:34.7344631 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 20374.3536ms.
+#################### 02/04/2019 13:32:34.7589291 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 20402.8218ms

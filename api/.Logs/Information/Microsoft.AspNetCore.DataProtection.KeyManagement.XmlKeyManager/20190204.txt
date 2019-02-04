@@ -33,3 +33,23 @@ StackTrace: at Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyR
    at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
    at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+#################### 02/04/2019 13:10:35.2611337 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+#################### 02/04/2019 13:12:56.9764921 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+#################### 02/04/2019 13:17:06.5593168 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+#################### 02/04/2019 13:19:08.0607358 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+#################### 02/04/2019 13:19:52.1713977 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+#################### 02/04/2019 13:21:06.9614013 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+#################### 02/04/2019 13:21:41.9726847 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+#################### 02/04/2019 13:23:24.8458662 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+#################### 02/04/2019 13:24:42.5502356 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+#################### 02/04/2019 13:26:05.7967271 ###############
+Message:    User profile is available. Using 'C:\Users\TopBrid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.

@@ -1164,3 +1164,363 @@ StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnosti
    at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
    at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
    at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 02/04/2019 13:10:37.2162971 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/
+#################### 02/04/2019 13:10:37.3563423 ###############
+Message:    Request finished in 139.5404ms 404
+#################### 02/04/2019 13:10:40.2498698 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc
+#################### 02/04/2019 13:10:40.3082873 ###############
+Message:    Request finished in 58.0782ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:10:40.3379637 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848538357878584
+#################### 02/04/2019 13:10:40.3460718 ###############
+Message:    Request finished in 8.3617ms 200 text/css
+#################### 02/04/2019 13:10:40.3507431 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/jquery.js
+#################### 02/04/2019 13:10:40.3637139 ###############
+Message:    Request finished in 12.9739ms 200 application/javascript
+#################### 02/04/2019 13:10:41.7154956 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc
+#################### 02/04/2019 13:10:41.7423050 ###############
+Message:    Request finished in 26.6635ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:10:41.7923110 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848538357878584
+#################### 02/04/2019 13:10:41.7923284 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/jquery.js
+#################### 02/04/2019 13:10:41.8063316 ###############
+Message:    Request finished in 21.694ms 200 text/css
+#################### 02/04/2019 13:10:41.8288329 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docViewData.json?v=636848538357878584
+#################### 02/04/2019 13:10:41.8478492 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/angular.js
+#################### 02/04/2019 13:10:41.8664248 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.js?v=636848538357878584
+#################### 02/04/2019 13:10:41.8834761 ###############
+Message:    Request finished in 35.6222ms 200 application/javascript
+#################### 02/04/2019 13:10:41.8834759 ###############
+Message:    Request finished in 98.8625ms 200 application/javascript
+#################### 02/04/2019 13:10:41.9555618 ###############
+Message:    Request finished in 89.1962ms 200 application/javascript
+#################### 02/04/2019 13:10:42.3194822 ###############
+Message:    Request finished in 489.8295ms 200 application/javascript
+#################### 02/04/2019 13:11:34.9404873 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/GetName?id=0
+#################### 02/04/2019 13:12:58.8885580 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/
+#################### 02/04/2019 13:12:59.0534686 ###############
+Message:    Request finished in 169.8907ms 404
+#################### 02/04/2019 13:14:51.2359532 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc
+#################### 02/04/2019 13:14:51.2820256 ###############
+Message:    Request finished in 45.5405ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:14:51.3087744 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848539776151171
+#################### 02/04/2019 13:14:51.3360215 ###############
+Message:    Request finished in 27.3308ms 200 text/css
+#################### 02/04/2019 13:14:51.3722442 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/jquery.js
+#################### 02/04/2019 13:14:51.4147478 ###############
+Message:    Request finished in 42.4888ms 200 application/javascript
+#################### 02/04/2019 13:14:53.0823997 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc
+#################### 02/04/2019 13:14:53.0988756 ###############
+Message:    Request finished in 21.5413ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:14:53.1363267 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/jquery.js
+#################### 02/04/2019 13:14:53.1399486 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848539776151171
+#################### 02/04/2019 13:14:53.2009777 ###############
+Message:    Request finished in 68.5009ms 200 text/css
+#################### 02/04/2019 13:14:53.2198552 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.js?v=636848539776151171
+#################### 02/04/2019 13:14:53.2641996 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docViewData.json?v=636848539776151171
+#################### 02/04/2019 13:14:53.2642297 ###############
+Message:    Request finished in 44.3907ms 200 application/javascript
+#################### 02/04/2019 13:14:53.2719639 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/angular.js
+#################### 02/04/2019 13:14:53.2989233 ###############
+Message:    Request finished in 162.5953ms 200 application/javascript
+#################### 02/04/2019 13:14:53.3035126 ###############
+Message:    Request finished in 33.0799ms 200 application/javascript
+#################### 02/04/2019 13:14:53.7470227 ###############
+Message:    Request finished in 484.5889ms 200 application/javascript
+#################### 02/04/2019 13:15:03.7088774 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/GetName?id=4
+#################### 02/04/2019 13:17:19.2820040 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/logs
+#################### 02/04/2019 13:17:19.4270074 ###############
+Message:    Request finished in 144.4951ms 404
+#################### 02/04/2019 13:17:23.6045355 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/logs
+#################### 02/04/2019 13:17:23.6117980 ###############
+Message:    Request finished in 7.6194ms 404
+#################### 02/04/2019 13:17:27.0811142 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/logs
+#################### 02/04/2019 13:17:27.0932443 ###############
+Message:    Request finished in 12.1323ms 404
+#################### 02/04/2019 13:17:39.1255840 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/settings
+#################### 02/04/2019 13:17:39.1312890 ###############
+Message:    Request finished in 11.5471ms 404
+#################### 02/04/2019 13:17:50.3907529 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/settings
+#################### 02/04/2019 13:17:50.3998078 ###############
+Message:    Request finished in 12.9004ms 307
+#################### 02/04/2019 13:17:50.4145757 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/settings
+#################### 02/04/2019 13:17:50.4292940 ###############
+Message:    Request finished in 14.7447ms 404
+#################### 02/04/2019 13:17:54.6749335 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/logs
+#################### 02/04/2019 13:17:54.6861529 ###############
+Message:    Request finished in 12.4559ms 404
+#################### 02/04/2019 13:18:12.1184071 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/logs
+#################### 02/04/2019 13:18:12.1233081 ###############
+Message:    Request finished in 5.2457ms 404
+#################### 02/04/2019 13:19:15.6191593 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/
+#################### 02/04/2019 13:19:15.7567032 ###############
+Message:    Request finished in 137.7649ms 404
+#################### 02/04/2019 13:19:21.6350729 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_logs
+#################### 02/04/2019 13:19:21.6421407 ###############
+Message:    Request finished in 7.4284ms 404
+#################### 02/04/2019 13:19:54.0312566 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/
+#################### 02/04/2019 13:19:54.2078710 ###############
+Message:    Request finished in 165.8384ms 404
+#################### 02/04/2019 13:19:59.6933013 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_logs
+#################### 02/04/2019 13:19:59.6991469 ###############
+Message:    Request finished in 5.7982ms 404
+#################### 02/04/2019 13:20:01.9526496 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_logs
+#################### 02/04/2019 13:20:01.9681763 ###############
+Message:    Request finished in 28.2772ms 404
+#################### 02/04/2019 13:21:48.7839678 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/
+#################### 02/04/2019 13:21:48.8702842 ###############
+Message:    Request finished in 86.6502ms 404
+#################### 02/04/2019 13:21:57.5126955 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/_logs
+#################### 02/04/2019 13:21:57.5158670 ###############
+Message:    Request finished in 1.8897ms 404
+#################### 02/04/2019 13:22:09.5105379 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/_Logs
+#################### 02/04/2019 13:22:09.5108628 ###############
+Message:    Request finished in 0.4549ms 404
+#################### 02/04/2019 13:23:30.8050898 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/
+#################### 02/04/2019 13:23:30.8809993 ###############
+Message:    Request finished in 76.5658ms 404
+#################### 02/04/2019 13:23:36.9534133 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/Logs
+#################### 02/04/2019 13:23:36.9540831 ###############
+Message:    Request finished in 0.7314ms 404
+#################### 02/04/2019 13:23:52.1283279 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/setting
+#################### 02/04/2019 13:23:52.1284762 ###############
+Message:    Request finished in 0.2175ms 404
+#################### 02/04/2019 13:24:54.8753651 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/
+#################### 02/04/2019 13:24:55.0232401 ###############
+Message:    Request finished in 147.7427ms 404
+#################### 02/04/2019 13:25:04.4527423 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_
+#################### 02/04/2019 13:25:04.4596992 ###############
+Message:    Request finished in 8.7135ms 301
+#################### 02/04/2019 13:25:04.4671431 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:25:04.4835080 ###############
+Message:    Request finished in 16.3462ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:25:04.5907682 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico
+#################### 02/04/2019 13:25:04.6005971 ###############
+Message:    Request finished in 10.3095ms 404
+#################### 02/04/2019 13:26:07.0976361 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/
+#################### 02/04/2019 13:26:07.2142922 ###############
+Message:    Request finished in 117.252ms 404
+#################### 02/04/2019 13:26:15.1537784 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/logs
+#################### 02/04/2019 13:26:15.1589806 ###############
+Message:    Request finished in 5.1892ms 404
+#################### 02/04/2019 13:26:24.1146207 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/log
+#################### 02/04/2019 13:26:24.1192283 ###############
+Message:    Request finished in 8.3304ms 404
+#################### 02/04/2019 13:26:26.2808257 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/log
+#################### 02/04/2019 13:26:26.2861407 ###############
+Message:    Request finished in 7.6373ms 404
+#################### 02/04/2019 13:26:32.7664967 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:26:32.7839985 ###############
+Message:    Request finished in 17.508ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:26:35.6978503 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:26:35.7033395 ###############
+Message:    Request finished in 6.0968ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:26:36.2921290 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:26:36.2968789 ###############
+Message:    Request finished in 5.9762ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:26:36.7442603 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:26:36.7534512 ###############
+Message:    Request finished in 9.1982ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:26:41.5129839 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs
+#################### 02/04/2019 13:26:41.5175136 ###############
+Message:    Request finished in 4.1703ms 404
+#################### 02/04/2019 13:26:48.6849981 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_
+#################### 02/04/2019 13:26:48.6963735 ###############
+Message:    Request finished in 11.0982ms 301
+#################### 02/04/2019 13:26:48.7008692 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:26:48.7049815 ###############
+Message:    Request finished in 4.1109ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:27:00.5304565 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_setting
+#################### 02/04/2019 13:27:00.5410310 ###############
+Message:    Request finished in 10.5875ms 404
+#################### 02/04/2019 13:27:03.8810122 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_setting_
+#################### 02/04/2019 13:27:03.8858144 ###############
+Message:    Request finished in 9.2726ms 404
+#################### 02/04/2019 13:27:11.2180022 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Setting_
+#################### 02/04/2019 13:27:11.2279671 ###############
+Message:    Request finished in 10.0169ms 404
+#################### 02/04/2019 13:27:16.9698459 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Settings_
+#################### 02/04/2019 13:27:17.0526681 ###############
+Message:    Request finished in 82.8111ms 200
+#################### 02/04/2019 13:28:15.9246230 ###############
+Message:    Request starting HTTP/1.1 POST https://localhost:5001/_Settings_/Save application/json 6575
+#################### 02/04/2019 13:28:15.9344743 ###############
+Message:    Request finished in 8.9534ms 200 application/json
+#################### 02/04/2019 13:28:16.2586742 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Settings_
+#################### 02/04/2019 13:28:16.2909711 ###############
+Message:    Request finished in 32.3386ms 200
+#################### 02/04/2019 13:28:24.9781077 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc
+#################### 02/04/2019 13:28:24.9987015 ###############
+Message:    Request finished in 25.2609ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:28:25.0677837 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.css?v=636848547662153194
+#################### 02/04/2019 13:28:25.0756079 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/jquery.js
+#################### 02/04/2019 13:28:25.0777353 ###############
+Message:    Request finished in 9.9815ms 200 text/css
+#################### 02/04/2019 13:28:25.0954236 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docViewData.json?v=636848547662153194
+#################### 02/04/2019 13:28:25.1077440 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/angular.js
+#################### 02/04/2019 13:28:25.1148072 ###############
+Message:    Request finished in 39.1846ms 200 application/javascript
+#################### 02/04/2019 13:28:25.1745182 ###############
+Message:    Request finished in 66.7863ms 200 application/javascript
+#################### 02/04/2019 13:28:25.1908856 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/apidoc/docView.min.js?v=636848547662153194
+#################### 02/04/2019 13:28:25.2018988 ###############
+Message:    Request finished in 10.9704ms 200 application/javascript
+#################### 02/04/2019 13:28:25.4190035 ###############
+Message:    Request finished in 322.4188ms 200 application/javascript
+#################### 02/04/2019 13:28:29.1512566 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/GetName?id=0
+#################### 02/04/2019 13:28:32.3349266 ###############
+Message:    Request finished in 3183.6767ms 200 application/json; charset=utf-8
+#################### 02/04/2019 13:28:46.3724493 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/GetName?id=1
+#################### 02/04/2019 13:28:49.3194757 ###############
+Message:    Request finished in 2947.8664ms 200 application/json; charset=utf-8
+#################### 02/04/2019 13:29:12.5554627 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/GetName?id=1
+#################### 02/04/2019 13:29:21.4280258 ###############
+Message:    Request finished in 8872.5716ms 200 application/json; charset=utf-8
+#################### 02/04/2019 13:29:59.5247500 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_
+#################### 02/04/2019 13:29:59.5307790 ###############
+Message:    Request finished in 6.0456ms 301
+#################### 02/04/2019 13:29:59.5365413 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:29:59.5427799 ###############
+Message:    Request finished in 6.2198ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:30:01.7514714 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Information/
+#################### 02/04/2019 13:30:01.7617531 ###############
+Message:    Request finished in 10.284ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:30:04.4942165 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:30:04.5047142 ###############
+Message:    Request finished in 10.5097ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:30:06.4376799 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Error/
+#################### 02/04/2019 13:30:06.4434582 ###############
+Message:    Request finished in 5.7502ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:30:08.1063319 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:30:08.1119382 ###############
+Message:    Request finished in 5.6257ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:30:10.3965195 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Information/
+#################### 02/04/2019 13:30:10.4075216 ###############
+Message:    Request finished in 11.1882ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:30:12.5039150 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Information/ValuesController/
+#################### 02/04/2019 13:30:12.5113727 ###############
+Message:    Request finished in 7.4978ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:30:14.1910105 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Information/ValuesController/20190204.txt
+#################### 02/04/2019 13:30:14.2240443 ###############
+Message:    Request finished in 33.053ms 200 text/plain; charset=utf-8
+#################### 02/04/2019 13:30:20.5742904 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Information/
+#################### 02/04/2019 13:30:20.5825884 ###############
+Message:    Request finished in 8.5562ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:30:21.4646818 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:30:21.4697224 ###############
+Message:    Request finished in 5.0456ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:31:16.8353230 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/
+#################### 02/04/2019 13:31:16.8418215 ###############
+Message:    Request finished in 7.788ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:31:23.2548928 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Information/
+#################### 02/04/2019 13:31:23.2658030 ###############
+Message:    Request finished in 10.9028ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:31:31.9013649 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Information/ValuesController/
+#################### 02/04/2019 13:31:31.9105108 ###############
+Message:    Request finished in 9.0456ms 200 text/html; charset=utf-8
+#################### 02/04/2019 13:31:37.1740439 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Information/ValuesController/20190204.txt
+#################### 02/04/2019 13:31:37.1913828 ###############
+Message:    Request finished in 17.3525ms 200 text/plain; charset=utf-8
+#################### 02/04/2019 13:31:48.2652859 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/GetName?id=3
+#################### 02/04/2019 13:31:58.8642897 ###############
+Message:    Request finished in 10598.9736ms 200 application/json; charset=utf-8
+#################### 02/04/2019 13:32:04.6657221 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Information/ValuesController/20190204.txt
+#################### 02/04/2019 13:32:04.6836604 ###############
+Message:    Request finished in 18.0244ms 200 text/plain; charset=utf-8
+#################### 02/04/2019 13:32:14.3440613 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/api/Values/GetName?id=3
+#################### 02/04/2019 13:32:34.7903481 ###############
+Message:    Request finished in 20446.3265ms 200 application/json; charset=utf-8
+#################### 02/04/2019 13:32:40.7788964 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Logs_/Information/ValuesController/20190204.txt
+#################### 02/04/2019 13:32:40.7885910 ###############
+Message:    Request finished in 9.7121ms 200 text/plain; charset=utf-8
+#################### 02/04/2019 13:32:46.9112865 ###############
+Message:    Request starting HTTP/1.1 GET https://localhost:5001/_Settings_
+#################### 02/04/2019 13:32:46.9185442 ###############
+Message:    Request finished in 7.2759ms 200

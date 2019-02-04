@@ -1,0 +1,8 @@
+#################### 02/04/2019 13:30:14.2204184 ###############
+Message:    Sending file. Request path: '/Information/ValuesController/20190204.txt'. Physical path: 'C:\Users\TopBrid\Desktop\happy_new_year\api\.Logs\Information\ValuesController\20190204.txt'
+#################### 02/04/2019 13:31:37.1838537 ###############
+Message:    Sending file. Request path: '/Information/ValuesController/20190204.txt'. Physical path: 'C:\Users\TopBrid\Desktop\happy_new_year\api\.Logs\Information\ValuesController\20190204.txt'
+#################### 02/04/2019 13:32:04.6718437 ###############
+Message:    Sending file. Request path: '/Information/ValuesController/20190204.txt'. Physical path: 'C:\Users\TopBrid\Desktop\happy_new_year\api\.Logs\Information\ValuesController\20190204.txt'
+#################### 02/04/2019 13:32:40.7854865 ###############
+Message:    Sending file. Request path: '/Information/ValuesController/20190204.txt'. Physical path: 'C:\Users\TopBrid\Desktop\happy_new_year\api\.Logs\Information\ValuesController\20190204.txt'
