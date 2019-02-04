@@ -26,3 +26,5 @@ WORKDIR /app
 COPY --from=build /app/out ./
 
 ENTRYPOINT ["dotnet", "api.dll"]
+
+
